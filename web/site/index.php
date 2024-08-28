@@ -49,7 +49,7 @@ function duration_string($input_duration)
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>List of Ebans</title>
+		<title>Ebans列表</title>
 		<link rel="stylesheet" href="css/main.css">
 		<script src="jquery.1.11.3.js"></script>
 		<script src="lang.js"></script>
@@ -60,11 +60,11 @@ function duration_string($input_duration)
 				<div class="navbar-container">
 					<div class="navbar-left">
 						<a key_phrase="EBan List Link" class="lang" href="./?page=1">EBan List</a>
-						<a key_phrase="Go Back Link" class="lang" href="https://google.com">Go Back</a>
+						<a key_phrase="Go Back Link" class="lang" href="https://baidu.com">Go Back</a>
 					</div>
 					<div class="navbar-right">
 						<a class="navbar-lang" onclick="SetLang('en'); localStorage.setItem('lang', 'en');" href="#">ENG</a>
-						<a class="navbar-lang" onclick="SetLang('ru'); localStorage.setItem('lang', 'ru');" href="#">RUS</a>
+						<a class="navbar-lang" onclick="SetLang('zh'); localStorage.setItem('lang', 'zh');" href="#">中文</a>
 						<form class="navbar-form" method="get">
 							<input type="text" name="search" placeholder="SteamID" class="navbar-input">
 							<button type="submit" key_phrase="Find" class="navbar-btn lang">Find</button>
